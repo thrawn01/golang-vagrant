@@ -36,6 +36,3 @@ curl -L -O https://github.com/Masterminds/glide/releases/download/0.8.3/glide-0.
 tar -C /opt/glide -zxf glide-0.8.3-linux-amd64.tar.gz
 ln -s /opt/glide/linux-amd64/glide /usr/local/bin
 
-# Checkout dev-tools
-cd ~/Development
-git clone git@github.com:thrawn01/dev-tools.git
