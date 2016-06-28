@@ -30,6 +30,9 @@ mkdir -p $GOPATH/src $GOPATH/bin
 # Install Docker
 curl -fsSL https://get.docker.com/ | sh
 
+# Allow vagrant user access to docker
+usermod -G docker vagrant
+
 # Install Glide
 mkdir /opt/glide
 curl -L -O https://github.com/Masterminds/glide/releases/download/0.8.3/glide-0.8.3-linux-amd64.tar.gz
